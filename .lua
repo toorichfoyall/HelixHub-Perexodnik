@@ -34,10 +34,10 @@ local Tab = Window:MakeTab({
 	PremiumOnly = false
 })
 
-Tab:AddLabel("Создано одним гениальным пупсиком🎅")
+Tab:AddLabel("Created by one genius doll🎅")
 
 Tab:AddButton({
-	Name = "Бро пж го в нашу телегу @HelixScripts",
+	Name = "Bro please go to our cart @HelixScripts",
 	Callback = function()
   	end    
 })
@@ -66,7 +66,7 @@ PremiumOnly = <bool> - Makes the tab accessible to Sirus Premium users only.
 ]]
 
 local Section = Tab:AddSection({
-	Name = "Основа основ Бро🎅"
+	Name = "Basics Bro🎅"
 })
 
 --[[
@@ -74,7 +74,7 @@ Name = <string> - The name of the section.
 ]]
 
 Tab:AddButton({
-	Name = "Принт в консоль🎅",
+	Name = "Print to console🎅",
 	Callback = function()
       		print("Ну типооо юзайте хеликс хаб:)")
   	end    
